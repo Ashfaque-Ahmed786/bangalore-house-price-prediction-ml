@@ -1,0 +1,24 @@
+BHP_PREDICTION_ML_PROJECT/
+│
+├── client/                     # Frontend
+│   ├── app.html                # HTML page
+│   ├── app.css                 # CSS styling
+│   ├── app.js                  # JavaScript for API calls
+│   └── assets/                 # Images/screenshots/icons
+│       └── screenshot.png
+│
+├── model/                      # ML model training files
+│   ├── bangalore_home_prices_model.pickle  # Trained ML model
+│   ├── columns.json            # Feature columns for the model
+│   └── model_training.ipynb    # Notebook for training and preprocessing
+│
+├── server/                     # Flask backend
+│   ├── artifacts/              # Stores model and columns for API
+│   │   ├── bangalore_home_prices_model.pickle
+│   │   └── columns.json
+│   ├── server.py               # Flask server script
+│   └── util.py                 # Utility functions (load model, predict)
+│
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation (your content)
+└── .gitignore                  # Ignore unnecessary files for Git
